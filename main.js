@@ -1,3 +1,6 @@
+
+
+
 function valorBoton(valor){
     operador = valor;
     document.getElementById("pantallacalculo").innerHTML = document.getElementById("pantallanumeros").innerHTML + operador;
@@ -25,7 +28,11 @@ function actualizarvisor(texto) {
         document.getElementById("pantallanumeros").innerHTML = textoactual + texto;
     }
 }
-
+function miguel() {
+    console.log("clear");
+    document.getElementById("pantallanumeros").innerHTML = "";
+    document.getElementById("pantallacalculo").innerHTML = "";
+}
 
 function calculador() {
 
@@ -51,4 +58,6 @@ function calculador() {
         break;
     }
 }
+
+
 
